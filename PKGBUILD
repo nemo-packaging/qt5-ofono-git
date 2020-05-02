@@ -20,8 +20,8 @@ url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('LGPL-2.1-or-later')
 depends=('qt5-declarative')
 makedepends=('git')
-provides=("${pkgname%-git}" "libqofono" "libqofono-git")
-conflicts=("${pkgname%-git}" "libqofono" "libqofono-git")
+provides=("${pkgname%-git}" "libqofono" "libqofono-git" "libqofono-qt5")
+conflicts=("${pkgname%-git}" "libqofono" "libqofono-git" "libqofono-qt5")
 source=("${pkgname}::git+${url}")
 md5sums=('SKIP')
 
